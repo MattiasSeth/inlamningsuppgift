@@ -1,4 +1,5 @@
-#awk '{if ($7-$6 < 1000) print $7-$6}' 1000.txt
-#awk '{if ($11-$10 < 1000) print $11-$10}' 1000.txt
-#awk '{if ($7-$6>1000 && $11-$10>1000) print $0}' 5000.txt
-awk '{if ($7-$6 < 1000 || $11-$10 < 1000) print $7-$6}' $filename
+# Version1
+#awk '{if ($7-$6 > 999 && $11-$10 > 999) print $0}' ~/inlamningsuppgift/data/5000.txt |  wc -l  
+
+#Version 2
+awk '$7-$6 > 999 && $11-$10 > 999 {++c} END {print c}' ~/inlamningsuppgift/data/5000.txt
