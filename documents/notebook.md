@@ -17,3 +17,11 @@ Made a shell script (degree.sh) for the degree distribution problem which produc
 140 3
 And so on. After that I made a java program which reads the file and returns the Degree, Amount and the Degree distribution. This solution seems to be working on smaller files but not on larger ones, or maybe it does but takes a lot longer. I tested degree.sh on the 7GB file and nothing happened for 30mins.
 I think I will return to this problem later and start looking at the number of components of G with at least three vertices instead.
+
+2022-05-14 to 2022-05-15:
+I don’t work on the project during the weekend, but I did watch a couple of the recorded videos on hash functions and graphs/DFS.
+
+2022-05-16:
+After watching the recorded material I decided to make a hashing program in java to store the vertex identifiers as integers instead of strings.
+I made “IntNodeFile.java” which reads the file and implements hashing through hashcode on the vertex identifiers. The program writes the result to a file which I later can read with “degree.sh” to find the degree distribution. I had to make some changes in degree.sh for it to work.
+This solution was way faster than the older one. I reused the timing code from Lab-5 on “IntNodeFile.java” and the result was 262000 ms (2.7min) and “degree.sh” is similar. 

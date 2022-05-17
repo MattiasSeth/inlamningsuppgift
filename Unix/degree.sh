@@ -1,1 +1,1 @@
-awk '{print $1"\n"$2}' ~/inlamningsuppgift/data/5000.txt | sort  | uniq -c | awk '{print $1}'  | sort -n | uniq -c > temp.txt
+sort -n < ~/inlamningsuppgift/data/int_temp.txt | uniq -c | awk '{print $1}'  | sort -n | uniq -c > degree_result.txt
