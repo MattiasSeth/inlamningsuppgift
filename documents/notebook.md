@@ -25,3 +25,6 @@ I don’t work on the project during the weekend, but I did watch a couple of th
 After watching the recorded material I decided to make a hashing program in java to store the vertex identifiers as integers instead of strings.
 I made “IntNodeFile.java” which reads the file and implements hashing through hashcode on the vertex identifiers. The program writes the result to a file which I later can read with “degree.sh” to find the degree distribution. I had to make some changes in degree.sh for it to work.
 This solution was way faster than the older one. I reused the timing code from Lab-5 on “IntNodeFile.java” and the result was 262000 ms (2.7min) and “degree.sh” is similar. 
+
+2022-05-17
+Started with the three vertices problem. Made an adjacency list program in java and tested it with some inputs. Then I read in some lines from the test files and my plan was to make some graphs, but I got nowhere.
