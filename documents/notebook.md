@@ -28,3 +28,7 @@ This solution was way faster than the older one. I reused the timing code from L
 
 2022-05-17
 Started with the three vertices problem. Made an adjacency list program in java and tested it with some inputs. Then I read in some lines from the test files and my plan was to make some graphs, but I got nowhere.
+
+2022-05-18:
+Added 2 functions to the Graph class, one to get the size of the adjacencylist and one to get the Vertex identifier. After that I remade how I store the vertex identifier from the test files, I now store identifier 1 in one arraylist and identifier 2 in another arraylist.
+Now I have to iterate through the id-arrays, connect edges and make the graph. I thought this part would be easier because we had a similar assignment in DA2004 called train, where you read a file with trains stations and made trainlines.  
