@@ -8,12 +8,15 @@ public class IntNodeFile {
 
     private void hashnode() {
     	try {
-  		File course_file = new File("25000.txt");
-  		File node_file = new File("int_temp.txt");
+    	File read_file = new File("/Users/harry/inlamningsuppgift/data/25000.txt");
+    	//File read_file = new File("25000.txt");
+    	
+    	File write_file = new File("/Users/harry/inlamningsuppgift/data/int_temp.txt");
+  		//File write_file = new File("int_temp.txt");
   		
 //           SCANNER OCH WRITERWS/PRINTERS 		
-    		Scanner sc = new Scanner(course_file);
-    		FileWriter file_Write = new FileWriter (node_file);
+    		Scanner sc = new Scanner(read_file);
+    		FileWriter file_Write = new FileWriter (write_file);
     		PrintWriter print = new PrintWriter (file_Write);
     		
     		while (sc.hasNext()) {
