@@ -32,3 +32,7 @@ Started with the three vertices problem. Made an adjacency list program in java 
 2022-05-18:
 Added 2 functions to the Graph class, one to get the size of the adjacencylist and one to get the Vertex identifier. After that I remade how I store the vertex identifier from the test files, I now store identifier 1 in one arraylist and identifier 2 in another arraylist.
 Now I have to iterate through the id-arrays, connect edges and make the graph. I thought this part would be easier because we had a similar assignment in DA2004 called train, where you read a file with trains stations and made trainlines.  
+
+2022-05-19:
+Decided to store the whole graph in a adjacencylist instead of storing all smaller graphs in a lot of adjacencylists because I got nowhere trying to figure out how to do it. So now I have one big adjacencylist with all the vertices and all the edges. 
+What’s left is finding the number of components of G with at least three vertices and the cliques.
