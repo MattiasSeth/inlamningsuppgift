@@ -42,3 +42,7 @@ Made a dfs function for the graph.
 
 2022-05-21:
 Continued with the component problem by using my code from the dfs function to make a new improved dfs function which also collects and count vertices. Spent a couple of hours on this but always got the wrong result so I went back to the first dfs function and noticed that I made mistake in a for loop. I corrected the mistake and got back to the components again. Eventually I got the right result on 2 smaller test files.
+
+2022-05-22:
+Tried changing the filepath code in the shell scripts to $filename. But when i ran "bash edge.sh filname.txt it never worked so I changed it back. After my failed sh attempts I decided to start writing the report, this took longer then excpected. 
+I looked at the clique problem for awhile but realized I would not have time to finsih. 
