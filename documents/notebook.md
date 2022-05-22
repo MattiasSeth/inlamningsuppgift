@@ -36,3 +36,9 @@ Now I have to iterate through the id-arrays, connect edges and make the graph. I
 2022-05-19:
 Decided to store the whole graph in a adjacencylist instead of storing all smaller graphs in a lot of adjacencylists because I got nowhere trying to figure out how to do it. So now I have one big adjacencylist with all the vertices and all the edges. 
 What’s left is finding the number of components of G with at least three vertices and the cliques.
+
+2022-05-20:
+Made a dfs function for the graph.
+
+2022-05-21:
+Continued with the component problem by using my code from the dfs function to make a new improved dfs function which also collects and count vertices. Spent a couple of hours on this but always got the wrong result so I went back to the first dfs function and noticed that I made mistake in a for loop. I corrected the mistake and got back to the components again. Eventually I got the right result on 2 smaller test files.
